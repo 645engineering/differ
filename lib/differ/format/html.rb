@@ -11,7 +11,7 @@ module Differ
 
       private
         def as_insert(change)
-          %Q{<ins background="e6ffe6" class="differ">#{change.insert}</ins>}
+          %Q{<ins background="#e6ffe6" class="differ">#{change.insert}</ins>}
         end
 
         def as_delete(change)
